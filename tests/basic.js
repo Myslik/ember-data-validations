@@ -13,7 +13,7 @@ var TestAdapter = DS.Adapter.extend({
 module("Basic", {
     setup: function () {
         store = DS.Store.create({
-            revision: 11,
+            revision: 12,
             adapter: TestAdapter.create()
         });
 
