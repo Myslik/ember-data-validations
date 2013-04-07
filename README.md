@@ -1,13 +1,13 @@
 Client-side validations for Ember-Data
 ======================================
 
-### Prerequisities
+## Prerequisities
 
 * jQuery
 * Ember.js
 * Ember-Data
 
-### Usage
+## Usage
 
 You can define validators in meta part of DS attributes definition.
 
@@ -17,10 +17,10 @@ App.Post = DS.Model.extend({
 });
 ```
 
-### Validators
+## Validators
 
 List of implemented client side validators
 
-#### Required
+### Required
 
 Attribute has to be non-null and non-empty before commiting to server.
